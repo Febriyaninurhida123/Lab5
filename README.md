@@ -62,11 +62,11 @@ print(30*"═")
 
 ![gambar output](screenshot/SS1.png)
 
-## Soal Praktikum 5
+## Praktikum 5
 
 ![gambar output](screenshot/soalpraktikum5.png)
 
-# praktikum5
+# soal praktikum5
 Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan : 
 * Program dibuat dengan menggunakan **Dictionary**
 * Tampilkan menu pilihan: (Tambah Data, Ubah Data, Hapus Data, Tampilkan Data, Cari Data)
@@ -144,7 +144,7 @@ while True:
             print("==================================================================")
 ```
 
-7. **Mengubah data**
+6. **Mengubah data**
 
 * Perintah dijalankan jika input yang di masukan adalah ``E``, di dalam kondisi ini terdapat input dan kondisi, dimana jika input ``nama`` ada di dalam variabel ``dataMahasiswa`` maka akan muncul beberapa pilihan untuk mengubah semua data atau data tertentu saja.
 ```python
@@ -164,7 +164,7 @@ while True:
         else:
             print("Data tidak ditemukan!")
 ```
-8. **Mencari Data**
+7. **Mencari Data**
 
 * Perbandingan untuk mencari data yang akan diubah sama seperti cara mengubah data, hanya saja perintah ini digunakan untuk menampilkan data yang di input berdasarkan nama. berikut kode yang digunakan
 ```python
@@ -184,7 +184,7 @@ while True:
             print("Datanya {0} Tidak Ada ".format(nama))
 ```
 
-9. **Menghapus data**
+8. **Menghapus data**
 
 * Sama seperti mengubah dan mencari data, untuk menghapus data yang dipilih.
 * Data yang di hapus adalah data yang di input dalam variabel ``nama`` dimana berisi nama (string) yang mewakili data **NIM, Nilai Tugas, UTS dan UAS**.
@@ -197,7 +197,7 @@ while True:
         else:
             print("Data Mahasiswa Tidak Ada".format(nama))
 ```
-10. **Menampilkan hasil output**
+9. **Menampilkan hasil output**
 ![gambar output](screenshot/SS3.png)
 ## sekian dan terima kasih
                                                  
